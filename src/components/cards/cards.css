@@ -1,0 +1,15 @@
+.cards-container {
+    padding: 30px 20px 0 20px;
+    display: flex;
+    margin: auto;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+@media screen and (max-width: 500px) {
+    .cards-container{
+        justify-content: center;
+    }
+}

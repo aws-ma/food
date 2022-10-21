@@ -1,0 +1,36 @@
+.creator-container {
+    width: 230px;
+    height: 187px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px var(--main-color);
+    padding: 20px;
+    position: absolute;
+    z-index: 20;
+    bottom: 10px;
+}
+.creator-container .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    font-size: 1rem;
+    font-size: bolder;
+    text-align: center;
+}
+.creator-container button {
+    display: block;
+    width: 50%;
+    margin: 20px auto 0;
+    padding: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light-color);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+.creator-container button:hover{
+    background-color:var(--secondary-color);
+}

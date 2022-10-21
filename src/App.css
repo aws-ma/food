@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+:root {
+    --main-color: #202030;
+    --secondary-color: #ff8263;
+    --light-color: #ffb19c;
+    --light-category-color: #fcd9cf;
+    --white-color: #ffffff;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+.app-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1400px;
+}
